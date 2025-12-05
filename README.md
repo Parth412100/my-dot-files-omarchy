@@ -9,6 +9,9 @@ cd dotfiles
 
 chmod +x ./setup.sh
 
+command for dirty disk cleanup:
+chkdsk C: /f /r /x
+
 ./setup.sh
 
 calender added
