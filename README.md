@@ -11,8 +11,7 @@ cd dotfiles
 chmod +x ./setup.sh
 
 command for dirty disk cleanup:
-```bash
-chkdsk C: /f /r /x
+```bash chkdsk C: /f /r /x
 
 ./setup.sh
 
