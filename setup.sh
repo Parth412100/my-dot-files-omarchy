@@ -21,7 +21,7 @@ yay -S --noconfirm --needed mpv fastfetch rofi btop git yt-dlp ani-cli blueman z
 
 echo "removing config dotfiles"
 cd $HOME/.config
-rm -rf btop fastfetch git hypr kitty lvsk-calendar omarchy waybar zen
+rm -rf btop fastfetch git hypr kitty lvsk-calendar waybar zen
 rm -rf $HOME/.bashrc
 
 #-------------------------
@@ -51,9 +51,6 @@ cp -rf $HOME/dotfiles/kitty $HOME/.config/
 
 #lvsk-calendar
 cp -rf $HOME/dotfiles/lvsk-calendar $HOME/.config/
-
-#omarchy
-cp -rf $HOME/dotfiles/omarchy $HOME/.config/
 
 #waybar
 cp -rf $HOME/dotfiles/waybar $HOME/.config/
