@@ -22,6 +22,7 @@ yay -S --noconfirm --needed mpv fastfetch rofi btop git yt-dlp ani-cli blueman z
 echo "removing config dotfiles"
 cd $HOME/.config
 rm -rf btop fastfetch git hypr kitty lvsk-calendar omarchy waybar zen
+rm -rf $HOME/.bashrc
 
 #-------------------------
 # 3. adding dotfiles
@@ -29,6 +30,9 @@ rm -rf btop fastfetch git hypr kitty lvsk-calendar omarchy waybar zen
 
 echo "adding config dotfiles"
 cd $HOME/.config
+
+#.bashrc
+cp -rf $HOME/dotfiles/.bashrc $HOME/
 
 #btop
 cp -rf $HOME/dotfiles/btop $HOME/.config/
