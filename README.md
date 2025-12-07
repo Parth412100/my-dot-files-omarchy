@@ -8,7 +8,7 @@ cd dotfiles
 chmod +x ./setup.sh
 ./setup.sh
 ```
-command for dirty disk cleanup:
+command for dirty disk cleanup (windows):
 
 ```
  chkdsk C: /f /r /x
