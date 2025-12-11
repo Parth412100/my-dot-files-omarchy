@@ -10,14 +10,14 @@
 # COLOR SCHEME
 # ============================================================================
 # Available schemes: "monochrome" (default), "pastel", "nord", "dracula", "gruvbox"
-COLOR_SCHEME="monochrome"
+COLOR_SCHEME="nord"
 
 # ============================================================================
 # BACKGROUND ILLUSTRATION
 # ============================================================================
 # Choose your background style
 # Available by default: "orbital" (default), "minimal", "stars", "none"
-BACKGROUND_STYLE="orbital"
+BACKGROUND_STYLE="stars"
 
 # All backgrounds are in: ~/.config/lvsk-calendar/backgrounds/
 # You can edit them directly or create new ones!
